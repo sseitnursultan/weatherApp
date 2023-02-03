@@ -1,0 +1,34 @@
+.Main{
+    background: rgb(0,0,0,0.6);
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.Main img {
+    width: 70px;
+    height: 70px;
+}
+
+.Main h3 {
+    font-size: 15px;
+    color: gray;
+}
+
+.Main h1{
+    color: gray;
+    padding: 25px;
+}
+
+.leftMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+}

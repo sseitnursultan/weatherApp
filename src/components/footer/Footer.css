@@ -1,0 +1,44 @@
+.Footer{
+    display: flex;
+    width: 500px;
+    height: 100%;
+    margin-top: 100px;
+    flex-wrap: wrap;
+
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 60px;
+    box-sizing: border-box;
+    margin: 10px 20px;
+    align-items: center;
+    background: rgb(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 4px 10px 0px;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.upSide{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.upSide p {
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.downSide p {
+    font-size: 15px;
+    padding-bottom: 5px;
+
+}
